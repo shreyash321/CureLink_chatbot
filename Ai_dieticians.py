@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-class DietChatbot:
+class AiDietChat:
     def __init__(self, api_key):
         # Configure the LLM API
         genai.configure(api_key=api_key)
@@ -153,7 +153,7 @@ if __name__ == "__main__":
     API_KEY = 'your_google_api_key_here'
     
     # Initialize the DietChatbot with the API key
-    chatbot = DietChatbot(api_key=API_KEY)
+    chatbot = AiDietChat(api_key=API_KEY)
     
     # Define the conditions and patient profile context
     conditions = [
