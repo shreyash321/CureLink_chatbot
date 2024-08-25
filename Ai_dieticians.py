@@ -1,5 +1,5 @@
+# Used to chat with different AI Agents for 10 + diseases through Prompt Tuning.
 import google.generativeai as genai
-
 class AiDietChat:
     def __init__(self, api_key):
         # Configure the LLM API
